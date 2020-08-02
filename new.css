@@ -1,0 +1,82 @@
+		body, html {
+				 height: 100%;
+				 margin: 0;
+			}
+
+		.bg { /* The image used */ background-image: url("cake1.jpg");
+
+	 		 /* Full height */
+	  		height: 100%; 
+
+	 		 /* Center and scale the image nicely */
+	 		 background-position: center;
+	 		 background-repeat: no-repeat;
+	 		 background-size: cover;
+			}
+
+		body{
+			background-image: url("texture1.jpg")
+
+
+		}
+		.white{
+			color:white;
+			text-shadow: 0 0 3px black, 0 0 5px black;
+
+		}
+		.menu{
+			/*background-color: rgb(0,0,0,0.4);*/
+			background-color: rgb(255,255,255,0.8);
+			padding:10px;
+			border-radius: 25px;
+			box-shadow: 0 0 15px black, 0 0 15px black;
+		
+		}
+		.center{
+			text-align:center;
+		}
+		.menulist{
+			font-size: 25px;
+			/*text-shadow: 0 0 2px black, 0 0 2px white;*/
+			font-family: 'Lobster', cursive;
+			margin:0;
+			padding:0;
+		}
+
+		img{
+			border:none;
+		}
+		.headpos{
+			margin:0px; padding-bottom: 0px; padding-top:15%; color:white; font-size:100px; padding-left: 12px;
+		}
+		.thumbnail{
+  background: transparent;
+}
+		.item{
+			margin-top: 20px;
+		}
+		.heading{
+			font-family: 'Lobster', cursive;
+		}
+		.menu-img{
+			border-style:none; border:none; border-collapse: none; border-radius:25px; background: transparent;
+		}
+		.headpos2{
+			padding-top: 0px; margin:0px; color:white; font-size:30px; padding-left: 89px;
+		}
+		
+		
+		@media only screen and (max-width: 600px) {
+  .bg {
+    padding-top:27%;
+  }
+
+  .headpos2{
+  	padding-left:30px;
+  }
+
+
+}
+a:hover{
+	text-decoration: none;
+}
